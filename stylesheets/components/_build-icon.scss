@@ -1,7 +1,7 @@
 .build-icon {
     width: 160px;
     height: 150px;
-    background-image: url(../../image/build01.png);
+    background-image: url(../image/build01.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
@@ -17,5 +17,5 @@
 .build-icon:hover {
     width: 210px;
     height: 200px;
-    background-image: url(../../image/build.png);
+    background-image: url(../image/build.png);
 }
