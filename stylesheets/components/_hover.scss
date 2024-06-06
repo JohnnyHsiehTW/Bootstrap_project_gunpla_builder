@@ -1,0 +1,78 @@
+// card-hover
+@mixin card-img($img_url) {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-image: url($img_url);
+    transition: 0.5s ease;
+}
+
+.card-img-01 {
+    @include card-img("../image/card01\(4-3\).jpg");
+}
+
+.card-img-02 {
+    @include card-img("../image/card02\(4-3\).jpg");
+}
+
+.card-img-03 {
+    @include card-img("../image/card03\(4-3\).jpg");
+}
+
+
+.card-hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0);
+    transition: box-shadow 0.5s ease;
+}
+
+.card-hover:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.097);
+    transition: box-shadow 0.5s ease;
+}
+
+.card-hover:hover {
+    .card-img-01 {
+        background-image: url(../image/card01\(4-3\)_hover.jpg);
+    }
+
+    .card-img-02 {
+        background-image: url(../image/card02\(4-3\)_hover.jpg);
+    }
+
+    .card-img-03 {
+        background-image: url(../image/card03\(4-3\)_hover.jpg);
+    }
+}
+
+.card-hover:hover .card-link {
+    color: rgb(0, 149, 255);
+    transition: 0.5s ease;
+}
+
+// img-hover
+.text {
+    position: absolute;
+    z-index: 200;
+    left: 20px;
+    bottom: 10px;
+    transition: .8s ease;
+    opacity: 0;
+}
+
+.img-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.img-hover:hover .img-bg {
+    opacity: 0.5;
+}
+
+.img-hover:hover .text {
+    opacity: 1;
+}

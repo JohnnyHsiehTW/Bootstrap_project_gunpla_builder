@@ -1,0 +1,56 @@
+// navbar-brand-img
+.navbar-brand-img {
+    height: 70px;
+}
+
+// background
+.background {
+    background-image: url(../image/original/lightpaperfibers.png);
+}
+
+// build-icon
+.build-icon {
+    width: 160px;
+    height: 150px;
+    background-image: url(../image/build01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 100;
+    bottom: 20px;
+    right: 10px;
+
+    @media(max-width:768px) {
+        display: none;
+    }
+}
+
+.build-icon:hover {
+    width: 210px;
+    height: 200px;
+    background-image: url(../image/build.png);
+}
+
+// banner
+.banner {
+    z-index: 100;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.works {
+    height: 100px;
+}
+
+// font-family
+.kanit {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+// footer
+.footer-icon {
+    height: 150px;
+}

@@ -53,11 +53,6 @@
 // Utilities
 @import "../node_modules/bootstrap/scss/utilities/api";
 
-@import "./components/header.scss";
-@import "./components/build-icon.scss";
-@import "./components/img-hover.scss";
-@import "./components/banner.scss";
-@import "./components/card-hover";
-@import "./components/kanit";
-@import "./components/side-nav";
-@import "./components/background";
+@import "./components/hover";
+@import "./components/nav";
+@import "./components/index.scss";

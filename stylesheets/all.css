@@ -11976,73 +11976,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.header {
-  background-position: top center;
-  background-size: cover;
-}
-
-.build-icon {
-  width: 160px;
-  height: 150px;
-  background-image: url(../image/build01.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  z-index: 100;
-  bottom: 20px;
-  right: 10px;
-}
-@media (max-width: 768px) {
-  .build-icon {
-    display: none;
-  }
-}
-
-.build-icon:hover {
-  width: 210px;
-  height: 200px;
-  background-image: url(../image/build.png);
-}
-
-.text {
-  position: absolute;
-  z-index: 200;
-  left: 20px;
-  bottom: 10px;
-  transition: 0.8s ease;
-  opacity: 0;
-}
-
-.img-bg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: black;
-  transition: 0.5s ease;
-  opacity: 0;
-}
-
-.img-hover:hover .img-bg {
-  opacity: 0.5;
-}
-
-.img-hover:hover .text {
-  opacity: 1;
-}
-
-.banner {
-  z-index: 100;
-  position: absolute;
-  top: 25%;
-  left: 5%;
-}
-
 .card-img-01 {
   width: 100%;
   height: 300px;
   background-size: cover;
   background-position: center;
-  background-image: url(../image/card01\(4-3\).jpg);
+  background-image: url("../image/card01(4-3).jpg");
   transition: 0.5s ease;
 }
 
@@ -12051,7 +11990,7 @@ textarea.form-control-lg {
   height: 300px;
   background-size: cover;
   background-position: center;
-  background-image: url(../image/card02\(4-3\).jpg);
+  background-image: url("../image/card02(4-3).jpg");
   transition: 0.5s ease;
 }
 
@@ -12060,7 +11999,7 @@ textarea.form-control-lg {
   height: 300px;
   background-size: cover;
   background-position: center;
-  background-image: url(../image/card03\(4-3\).jpg);
+  background-image: url("../image/card03(4-3).jpg");
   transition: 0.5s ease;
 }
 
@@ -12089,10 +12028,35 @@ textarea.form-control-lg {
   transition: 0.5s ease;
 }
 
-.kanit {
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+.text {
+  position: absolute;
+  z-index: 200;
+  left: 20px;
+  bottom: 10px;
+  transition: 0.8s ease;
+  opacity: 0;
+}
+
+.img-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  transition: 0.5s ease;
+  opacity: 0;
+}
+
+.img-hover:hover .img-bg {
+  opacity: 0.5;
+}
+
+.img-hover:hover .text {
+  opacity: 1;
+}
+
+.header {
+  background-position: top center;
+  background-size: cover;
 }
 
 @media (min-width: 992px) {
@@ -12101,6 +12065,54 @@ textarea.form-control-lg {
     transition: 0.5 ease;
   }
 }
+.navbar-brand-img {
+  height: 70px;
+}
+
 .background {
   background-image: url(../image/original/lightpaperfibers.png);
+}
+
+.build-icon {
+  width: 160px;
+  height: 150px;
+  background-image: url(../image/build01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: 100;
+  bottom: 20px;
+  right: 10px;
+}
+@media (max-width: 768px) {
+  .build-icon {
+    display: none;
+  }
+}
+
+.build-icon:hover {
+  width: 210px;
+  height: 200px;
+  background-image: url(../image/build.png);
+}
+
+.banner {
+  z-index: 100;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.works {
+  height: 100px;
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-icon {
+  height: 150px;
 }/*# sourceMappingURL=all.css.map */
