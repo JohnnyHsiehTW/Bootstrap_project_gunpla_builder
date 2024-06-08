@@ -28,53 +28,55 @@
               <span class="navbar-toggler-icon"></span>
             </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+          <ul class="navbar-nav ms-auto me-2">
+            <li class="nav-item mx-2">
               <a class="nav-link active" aria-current="page" href="./index.html">首頁</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link" href="./service.html">服務介紹</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link" href="./design.html">設計作品</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./take-me-home.html">成品專區</a>
-            </li>
-            <li class="nav-item">
-              <a class="btn btn-primary my-2 my-lg-0 mx-lg-2" href="./order_form.html">尋找模型達人</a>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="./finished_works.html">成品專區</a>
             </li>
           </ul>
-      </div>
+          </div>
+        <a class="btn btn-primary my-2 my-lg-0 mx-lg-2 d-none d-lg-block" href="./order_form.html">尋找模型達人</a>
       </div>
     </nav>
 
       <a href="./order_form.html" class="build-icon"></a>
 
-    <main>
+    <main class="container">
       <!-- banner -->
-      <section class="container mb-5">
+      <section class="mb-5">
         <div class="position-relative">
-          <img class="header img-fluid shadow" src="./image/wing(16-9).jpg" alt="">
+          <img class="header img-fluid rounded-2 shadow" src="./image/wing(16-9).jpg" alt="">
           <h1 class="banner kanit text-white display-3 fw-bold fst-italic">GUNPLA Builder</h1>
         </div>
       </section>
 
-      <div class="container">
+      <div>
         <hr class="text-primary border-4 my-4">
       </div>
 
       <!-- service -->
-      <section class="container my-5">
-        <div class="row row-cols-1 row-cols-lg-2 flex-lg-row-reverse">
+      <section class="my-5">
+        <div class="row row-cols-1 row-cols-lg-2 flex-lg-row-reverse align-items-center">
             <div class="col">
                 <p class="kanit fs-2 fw-bold text-primary text-center text-lg-start text-uppercase">Service</p>
                 <h2 class="fs-2 mb-3 text-center text-lg-start">打造專屬於你 獨一無二的模型</h2>
                 <p class="fs-5 lh-5 text-center text-lg-start">你是否夢想擁有一台精緻的鋼普拉模型？<br>
-                    但總有很多現實因素，導致作品遲遲無法完成...<br><br>
+                    但總有很多現實因素，導致作品遲遲無法完成...
+                </p>
+                <p class="fs-5 lh-5 text-center text-lg-start">
                     工作太忙<strong>沒有時間</strong><br>
                     <strong>技術力不足</strong>無法實現<br>
-                    專業工具或<strong>空間不夠</strong><br><br>
+                    專業工具或<strong>空間不夠</strong><br>
+                </p>
+                <p class="fs-5 lh-5 text-center text-lg-start">
                     曾經我們也是這樣，所以深知您的困境，<br>
                     幫您媒合專業模型製作達人，<br>
                     提供您與達人良好的溝通平台，<br>
@@ -88,7 +90,7 @@
       </section>
 
       <!-- 近期作品 -->
-      <section class="container mb-5">
+      <section class="mb-5">
         <div class="text-center mb-3">
           <p class="align-self-center mb-0 fs-3 fw-bold text-primary">近期成品</p>
           <p class="align-self-center mb-0 fs-4 kanit">Recent Works</p>
@@ -131,20 +133,20 @@
                 </div>
               </div>
           </div>
-        <div class="container my-5 d-flex justify-content-center">
+        <div class="my-5 d-flex justify-content-center">
           <a class="btn btn-outline-primary rounded-pill px-5 mx-3" href="./design.html">查看更多作品</a>
           <a class="btn btn-outline-primary rounded-pill px-5 mx-3 active d-none d-lg-block" href="./order_form.html">客製專屬模型</a>
         </div>
       </section>
 
-      <!-- 領養專區 -->
+      <!-- 成品專區 -->
       <section class="mb-5">
-        <div class="container text-center">
+        <div class="text-center">
             <p class="align-self-center mb-0 fs-3 fw-bold text-primary">成品專區</p>
             <p class="align-self-center mb-0 fs-4 kanit">Finished Works</p>
           <p class="py-2">這些由模型達人精心製作的鋼普拉，正在等待有緣人帶他們回家</p>
         </div>
-        <div class="container">
+        <div>
             <div class="row row-cols-1 row-cols-lg-3 justify-content-center g-3">
               <div class="col col-lg-4">
                 <div class="card rounded-4 h-100 card-hover">
@@ -192,14 +194,14 @@
               </div>
             </div>
           </div>
-          <div class="container text-center my-5">
+          <div class="text-center my-5">
             <a class="btn btn-outline-primary rounded-pill px-5 mx-3" href="./take-me-home.html">查看更多完成品</a>
           </div>
       </section>
-
+    </main>
       <!-- footer -->
       <footer class="footer border-top border-4 border-secondary bg-white">
-        <div class="container text-center text-md-start d-block d-lg-flex justify-content-center align-items-center my-3">
+        <div class="text-center text-md-start d-block d-lg-flex justify-content-center align-items-center my-3">
           <div class="card mb-3 border-0">
               <div class="row g-0">
                   <div class="col-md-3 align-self-center">
@@ -240,7 +242,7 @@
           </div>
         </div>
       </footer>
-    </main>
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
